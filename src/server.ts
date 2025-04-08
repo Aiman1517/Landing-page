@@ -49,6 +49,27 @@ app.use('/**', (req, res, next) => {
     .catch(next);
 });
 
+export const getPrerenderParams = () => {
+  return {
+    '/:lang': [
+      { lang: 'en' },
+      { lang: 'ru' },
+      { lang: 'kz' },
+    ],
+    '/:lang/reviews': [
+      { lang: 'en' },
+      { lang: 'ru' },
+      { lang: 'kz' },
+    ],
+    '/:lang/footer': [
+      { lang: 'en' },
+      { lang: 'ru' },
+      { lang: 'kz' },
+    ],
+  };
+};
+
+
 /**
  * Start the server if this module is the main entry point.
  * The server listens on the port defined by the `PORT` environment variable, or defaults to 4000.
