@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="kz-KZ" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="headerTitle" datatype="html">
+        <source>Think UP AI</source>
+        <target>Think UP AI</target>
+      </trans-unit>
+      <trans-unit id="phoneNumber" datatype="html">
+        <source>+7 (777) 828-06-82</source>
+        <target>+7 (777) 828-06-82</target>
+      </trans-unit>
+      <trans-unit id="installTitle" datatype="html">
+        <source>Біздің қолданбаны құрылғыңызға орнатыңыз</source>
+        <target>Біздің қолданбаны құрылғыңызға орнатыңыз</target>
+      </trans-unit>
+      <trans-unit id="advantagesTitle" datatype="html">
+        <source>Біздің артықшылықтарымыз</source>
+        <target>Біздің артықшылықтарымыз</target>
+      </trans-unit>
+      <trans-unit id="reviewsTitle" datatype="html">
+        <source>Қолданушылардың пікірлері</source>
+        <target>Қолданушылардың пікірлері</target>
+      </trans-unit>
+      <trans-unit id="footerContact" datatype="html">
+        <source>Егер сізде қандай да бір қиындықтар болса, қолдау көрсету бөліміне хабарласыңыз. Жұмыс уақыты: 9:00-ден 18:00-ге дейін Дүйсенбі - Сенбі</source>
+        <target>Егер сізде қандай да бір қиындықтар болса, қолдау көрсету бөліміне хабарласыңыз. Жұмыс уақыты: 9:00-ден 18:00-ге дейін Дүйсенбі - Сенбі</target>
+      </trans-unit>
+      <trans-unit id="footerCallUs" datatype="html">
+        <source>Бізге қоңырау шалыңыз:</source>
+        <target>Бізге қоңырау шалыңыз:</target>
+      </trans-unit>
+      <trans-unit id="footerWhatsApp" datatype="html">
+        <source>WhatsApp - қа жазыңыз</source>
+        <target>WhatsApp - қа жазыңыз</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

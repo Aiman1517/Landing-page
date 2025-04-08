@@ -1,0 +1,36 @@
+.reviews {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.reviews h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.reviews .review-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reviews .review {
+  background: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.reviews .review h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.reviews .review p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+

@@ -1,0 +1,28 @@
+.footer {
+  background: #e0f7fa;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #007bff;
+  margin: 0 5px;
+}

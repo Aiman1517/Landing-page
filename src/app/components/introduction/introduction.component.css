@@ -1,0 +1,41 @@
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+    gap: 20px;
+}
+
+.introduction-section {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.introduction-image1 {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.introduction-image2 {
+    max-width: 200%;
+    height: auto; 
+    margin-right: 120px;
+}
+
+.introduction-content {
+    flex: 2;
+    text-align: left; 
+    background-color: #e0f7fa; 
+    padding: 40px;
+    width: 10%; 
+    padding-right: 10px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

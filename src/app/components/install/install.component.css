@@ -1,0 +1,58 @@
+.install {
+  text-align: center;
+  padding: 40px 20px;
+  background: #e0f7fa; /* Unified background color */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.install h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.install-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.install ol {
+  list-style: decimal;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.install ol li {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.install ol p {
+  margin: 5px 0 15px 20px;
+  font-weight: normal;
+}
+
+.qr-code-placeholder {
+  width: 350px;
+  height: 250px;
+  background-color: #d0e7f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.qr-code{
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 4px;
+}

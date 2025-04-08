@@ -1,0 +1,32 @@
+.header {
+  background: #5c9ead;
+  padding: 20px 0;
+  color: white;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.phone-number {
+  font-size: 16px;
+}

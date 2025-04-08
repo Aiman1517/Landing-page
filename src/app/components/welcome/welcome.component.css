@@ -1,0 +1,33 @@
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+.welcome-section {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    margin-right: 10px;
+}
+
+.welcome-image {
+    max-width: 200%;
+    height: auto;
+    margin-right: 200px;
+}
+
+.welcome-content {
+    flex: 2; 
+    text-align: left;
+    background-color: #e0f7fa;
+    padding: 40px;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    align-items: center;
+    justify-content: center;
+}
