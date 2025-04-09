@@ -30,3 +30,33 @@
 .phone-number {
   font-size: 16px;
 }
+
+.language-toggle {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+}
+
+.language-toggle button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  background-color: #f4f7fa; /* Primary color */
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.language-toggle button:hover {
+  background-color: #5ba9cd; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.language-toggle button:active {
+  transform: scale(0.95); /* Press effect */
+}
+
+.language-toggle button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(149, 243, 255, 0.5); /* Glow effect on focus */
+}
